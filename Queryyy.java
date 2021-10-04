@@ -68,7 +68,7 @@ public class Queryyy extends HttpServlet {
         GroupByClause groupByClause = new GroupByClause(groupColList, criteria_count);
         query.setGroupByClause(groupByClause);
         query.setCriteria(criteria_param);
-        
+        //Comment
         DeleteQuery deleteQuery = new DeleteQueryImpl("INVTECHPARAMS");
         
         DerivedColumn dc = new DerivedColumn("derv_col",query);
